@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B56858385E83C5F69614CE4 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802BFFFA566FD7911A66537A /* JournalView.swift */; };
+		AD15DB20C0EB58F34629A621 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992297ACB25EC91724ADC4B /* SettingsView.swift */; };
+		83A8132CD629E604DD797CC7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B128B4615E73B8249A459260 /* HomeView.swift */; };
+		6FB239595FC7F336C551AF8C /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B13FB033757026B4934845 /* ArticleDetailView.swift */; };
+		3B0A2C1B09EDBED3C2870BDC /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82561E6444D6F6398D5E3E08 /* LearnView.swift */; };
+		5A9CFD296FD6541CC0E81C6C /* HerHealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72B0BABF62662C3A178FC4C /* HerHealthApp.swift */; };
+		BA8D1D2DA64202DFF39C2963 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A48DC7D9717FBC5BC17975 /* ChatView.swift */; };
+		11486C73A82C4AD400741EDB /* QuizViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B22C4B4598FC6CD9BF7B48 /* QuizViews.swift */; };
+		1C838094560046A29C08A8F5 /* SavedLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D315A2A5575DA45B2E89EFC /* SavedLibraryView.swift */; };
+		6BC62DE00666A45C189ADDCE /* ArticleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B57D6F5CA40288DE0BA97CC /* ArticleData.swift */; };
+		BF7C7F5C603B69CE2585343D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD9F2B163C3233806786BB0 /* Models.swift */; };
+		8316F174E8157FBBBA156FEB /* BreathSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B70570AD1B7F5F7766E96 /* BreathSessionView.swift */; };
+		C6EB4671DBE6C62334D66CFF /* CalmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C013D9FE52A9634BB3F3BC30 /* CalmView.swift */; };
+		709A96A350DEBF35A8265F89 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7662711EE849AAB7F5DB078 /* Components.swift */; };
+		7BD1D420242FB428C68C1991 /* Illustration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9EDA1638A3B784051EB0B3 /* Illustration.swift */; };
+		FB5CE4E254989678B4A1A520 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D295D37D62E58F8A450E1C /* Theme.swift */; };
+		ABFF3A9E19E50736D8BA52EC /* BodyCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343517D405FCC1D47FB88859 /* BodyCheckView.swift */; };
+		7EB8F875B3C1BC632CE77F96 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E5BF097DFEB882CC48DDE /* MeView.swift */; };
+		77E2F8E4744554800B26F93E /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDBF025D1C7239793A11602 /* StatsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		802BFFFA566FD7911A66537A /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JournalView.swift"; sourceTree = "<group>"; };
+		C992297ACB25EC91724ADC4B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		B128B4615E73B8249A459260 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView.swift"; sourceTree = "<group>"; };
+		58B13FB033757026B4934845 /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticleDetailView.swift"; sourceTree = "<group>"; };
+		82561E6444D6F6398D5E3E08 /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LearnView.swift"; sourceTree = "<group>"; };
+		C72B0BABF62662C3A178FC4C /* HerHealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HerHealthApp.swift"; sourceTree = "<group>"; };
+		68A48DC7D9717FBC5BC17975 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatView.swift"; sourceTree = "<group>"; };
+		50B22C4B4598FC6CD9BF7B48 /* QuizViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuizViews.swift"; sourceTree = "<group>"; };
+		9D315A2A5575DA45B2E89EFC /* SavedLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SavedLibraryView.swift"; sourceTree = "<group>"; };
+		2B57D6F5CA40288DE0BA97CC /* ArticleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticleData.swift"; sourceTree = "<group>"; };
+		2CD9F2B163C3233806786BB0 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models.swift"; sourceTree = "<group>"; };
+		923B70570AD1B7F5F7766E96 /* BreathSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BreathSessionView.swift"; sourceTree = "<group>"; };
+		C013D9FE52A9634BB3F3BC30 /* CalmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalmView.swift"; sourceTree = "<group>"; };
+		F7662711EE849AAB7F5DB078 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Components.swift"; sourceTree = "<group>"; };
+		BA9EDA1638A3B784051EB0B3 /* Illustration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Illustration.swift"; sourceTree = "<group>"; };
+		D3D295D37D62E58F8A450E1C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Theme.swift"; sourceTree = "<group>"; };
+		343517D405FCC1D47FB88859 /* BodyCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BodyCheckView.swift"; sourceTree = "<group>"; };
+		840E5BF097DFEB882CC48DDE /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MeView.swift"; sourceTree = "<group>"; };
+		6EDBF025D1C7239793A11602 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatsView.swift"; sourceTree = "<group>"; };
+		DE0D11B06227F9EDF68996D2 /* HerHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HerHealth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		766EABB7A3DDDF0C5BE37856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A85897F1A32FE9B91C081CD = {
+			isa = PBXGroup;
+			children = (
+				E06B4D66ED1D668C4CBF0956 /* HerHealth */,
+				9B09840FC0548C6E148B72BF /* Frameworks */,
+				B88D7E26791946AEFDCC8BB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B88D7E26791946AEFDCC8BB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D11B06227F9EDF68996D2 /* HerHealth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B09840FC0548C6E148B72BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E06B4D66ED1D668C4CBF0956 /* HerHealth */ = {
+			isa = PBXGroup;
+			children = (
+				1AA09E6057E79E22AEB28730 /* App */,
+				9ADC8AD80CC7CDA443A94F0C /* BodyCheck */,
+				E4950F28E11C96DEB65C17C9 /* Calm */,
+				58E36251D67412BA030D3F28 /* Chat */,
+				EEEB20FC7C47D4E256184B0D /* Components */,
+				FC076AD2E628DF0EF9939B13 /* Home */,
+				7EEE676219FA58E40E6C878D /* Journal */,
+				848498140A0DA2F227B57C30 /* Learn */,
+				DD3E8E0257C083D5A03EDB3B /* Library */,
+				7CE915648EAA0378D0585551 /* Me */,
+				CCE646768EE6195ED375D17C /* Models */,
+				2D5841EDD99BA19D9CA0C531 /* Quiz */,
+				1C0744C265B94D39D86DC869 /* Settings */,
+				0C246D7BEE160B5EF90D7F29 /* Stats */,
+				227A90FF4D5084DE44139209 /* Theme */,
+			);
+			path = HerHealth;
+			sourceTree = "<group>";
+		};
+		1AA09E6057E79E22AEB28730 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C72B0BABF62662C3A178FC4C /* HerHealthApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9ADC8AD80CC7CDA443A94F0C /* BodyCheck */ = {
+			isa = PBXGroup;
+			children = (
+				343517D405FCC1D47FB88859 /* BodyCheckView.swift */,
+			);
+			path = BodyCheck;
+			sourceTree = "<group>";
+		};
+		E4950F28E11C96DEB65C17C9 /* Calm */ = {
+			isa = PBXGroup;
+			children = (
+				923B70570AD1B7F5F7766E96 /* BreathSessionView.swift */,
+				C013D9FE52A9634BB3F3BC30 /* CalmView.swift */,
+			);
+			path = Calm;
+			sourceTree = "<group>";
+		};
+		58E36251D67412BA030D3F28 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				68A48DC7D9717FBC5BC17975 /* ChatView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		EEEB20FC7C47D4E256184B0D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F7662711EE849AAB7F5DB078 /* Components.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FC076AD2E628DF0EF9939B13 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B128B4615E73B8249A459260 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7EEE676219FA58E40E6C878D /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				802BFFFA566FD7911A66537A /* JournalView.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		848498140A0DA2F227B57C30 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				58B13FB033757026B4934845 /* ArticleDetailView.swift */,
+				82561E6444D6F6398D5E3E08 /* LearnView.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		DD3E8E0257C083D5A03EDB3B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				9D315A2A5575DA45B2E89EFC /* SavedLibraryView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		7CE915648EAA0378D0585551 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				840E5BF097DFEB882CC48DDE /* MeView.swift */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		CCE646768EE6195ED375D17C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B57D6F5CA40288DE0BA97CC /* ArticleData.swift */,
+				2CD9F2B163C3233806786BB0 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2D5841EDD99BA19D9CA0C531 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				50B22C4B4598FC6CD9BF7B48 /* QuizViews.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		1C0744C265B94D39D86DC869 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C992297ACB25EC91724ADC4B /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		0C246D7BEE160B5EF90D7F29 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				6EDBF025D1C7239793A11602 /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		227A90FF4D5084DE44139209 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				BA9EDA1638A3B784051EB0B3 /* Illustration.swift */,
+				D3D295D37D62E58F8A450E1C /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16FCDF1155BFA8B8D63144D7 /* HerHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4977ED30DDFEF48DA821F2BF /* Build configuration list for PBXNativeTarget "HerHealth" */;
+			buildPhases = (
+				0E1EEB3C39FA70BFD3E6FEB0 /* Sources */,
+				766EABB7A3DDDF0C5BE37856 /* Frameworks */,
+				781B1EA3DCD06C2932EFB49A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HerHealth;
+			productName = HerHealth;
+			productReference = DE0D11B06227F9EDF68996D2 /* HerHealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		517693993755FF1E0F149E2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					16FCDF1155BFA8B8D63144D7 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = EA8A7DC255B9760C07FA9248 /* Build configuration list for PBXProject "HerHealth" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A85897F1A32FE9B91C081CD;
+			productRefGroup = B88D7E26791946AEFDCC8BB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16FCDF1155BFA8B8D63144D7 /* HerHealth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		781B1EA3DCD06C2932EFB49A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E1EEB3C39FA70BFD3E6FEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B56858385E83C5F69614CE4 /* JournalView.swift in Sources */,
+				AD15DB20C0EB58F34629A621 /* SettingsView.swift in Sources */,
+				83A8132CD629E604DD797CC7 /* HomeView.swift in Sources */,
+				6FB239595FC7F336C551AF8C /* ArticleDetailView.swift in Sources */,
+				3B0A2C1B09EDBED3C2870BDC /* LearnView.swift in Sources */,
+				5A9CFD296FD6541CC0E81C6C /* HerHealthApp.swift in Sources */,
+				BA8D1D2DA64202DFF39C2963 /* ChatView.swift in Sources */,
+				11486C73A82C4AD400741EDB /* QuizViews.swift in Sources */,
+				1C838094560046A29C08A8F5 /* SavedLibraryView.swift in Sources */,
+				6BC62DE00666A45C189ADDCE /* ArticleData.swift in Sources */,
+				BF7C7F5C603B69CE2585343D /* Models.swift in Sources */,
+				8316F174E8157FBBBA156FEB /* BreathSessionView.swift in Sources */,
+				C6EB4671DBE6C62334D66CFF /* CalmView.swift in Sources */,
+				709A96A350DEBF35A8265F89 /* Components.swift in Sources */,
+				7BD1D420242FB428C68C1991 /* Illustration.swift in Sources */,
+				FB5CE4E254989678B4A1A520 /* Theme.swift in Sources */,
+				ABFF3A9E19E50736D8BA52EC /* BodyCheckView.swift in Sources */,
+				7EB8F875B3C1BC632CE77F96 /* MeView.swift in Sources */,
+				77E2F8E4744554800B26F93E /* StatsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		075A3F45448538490E577636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9E4B6119718769058EA9DAB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_NDEBUG = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		75C43E90EFD001E36BF60147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HerHealth/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HerHealth/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fionahu.HerHealth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		763EE87794306FA0DE784359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HerHealth/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HerHealth/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fionahu.HerHealth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA8A7DC255B9760C07FA9248 /* Build configuration list for PBXProject "HerHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075A3F45448538490E577636 /* Debug */,
+				9E4B6119718769058EA9DAB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4977ED30DDFEF48DA821F2BF /* Build configuration list for PBXNativeTarget "HerHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C43E90EFD001E36BF60147 /* Debug */,
+				763EE87794306FA0DE784359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 517693993755FF1E0F149E2B /* Project object */;
+}
